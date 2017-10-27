@@ -93,7 +93,7 @@ class OSFS(FS):
         else:
             if not os.path.isdir(_root_path):
                 raise errors.CreateFailed(
-                    'root path does not exists'
+                    'root path does not exist'
                 )
 
         _meta = self._meta = {
